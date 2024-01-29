@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+header img {
+    width: 36px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+body {
+    background-color:#E7E7E7;
+    padding-top: 100px;
+}
+
+.titils {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+form input {
+    color: black;
+    font-size: 24px;
+    border: none;
+    border-bottom: solid 2px black;
+    padding: 8px;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form button {
+    background-color: #009432;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+}
+
+table thead td{
+    font-weight: bold;
+    border-bottom: solid 2px black;
+    padding: 16px;
+    font-size: 24px;
+    text-align: center;
+}
+
+table tbody td,
+table tfoot td {
+    padding: 16px 0px;
+    border-bottom: solid 2px rgb(0, 0, 0, 0.1);
+    font-size: 18px;
+    text-align: center;
+}
+
+table td img {
+    width: 30px;
+}
+
+table {
+    width: 100%;
+}
+
+.resultado {
+    padding: 8px;
+}
+
+.aprovado {
+    background-color: #009432;
+    font-weight: bold;
+    color: white;
+}
+
+.reprovado {
+    background-color: red;
+    font-weight: bold;
+    color: white;
+}
